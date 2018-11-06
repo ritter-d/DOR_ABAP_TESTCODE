@@ -1,5 +1,6 @@
 REPORT zdr_tools_tx_per_user.
-
+*BRANCH1
+*BRANCH2
 PARAMETERS: month TYPE dats DEFAULT sy-datum OBLIGATORY,
             user  TYPE usr02-bname OBLIGATORY DEFAULT sy-uname.
 
